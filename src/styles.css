@@ -48,7 +48,7 @@ h4 {
 }
 
 p {
-    font-size: 1em
+    font-size: 1.5em
 }
 
 
@@ -87,11 +87,13 @@ p {
     padding-bottom: 1.1em;
     transition: all 0.3s ease;
 }
+
 .logo:hover {
-  background-color: #3ef9e1;
+    background-color: #3ef9e1;
 }
+
 .logo:active {
-  background-color: #82f3e4;
+    background-color: #82f3e4;
 }
 
 .subheadline-container {
@@ -131,12 +133,16 @@ p {
 .topbanner-nav h3 {
     text-transform: uppercase;
 }
+
 .topbanner-nav:hover {
-  background-color: #3ef9e1;
+    background-color: #3ef9e1;
 }
+
 .topbanner-nav:active {
-  background-color: #82f3e4;
+    background-color: #82f3e4;
 }
+
+
 /*##################### welcome container ##########################*/
 
 .welcome-container {
@@ -200,15 +206,12 @@ p {
 }
 
 .blogpost-item {
-  position: relative;
+    position: relative;
     width: 80%;
     margin: 0 auto;
     background-color: #fff;
     transition: all 0.3s ease;
     border: #dedede 1px solid;
-}
-
-.blogpost-item h2, h3, h4 {
     text-align: center;
 }
 
@@ -232,21 +235,24 @@ p {
     -ms-transform: scale(0.99);
     transform: scale(0.99);
 }
+
 .color-overlay {
-  position:absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  opacity: 0;
-  transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.3s ease;
 }
+
 .color-overlay:hover {
-  opacity: 0.3;
+    opacity: 0.3;
 }
+
 .color-overlay:active {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 
@@ -275,6 +281,68 @@ p {
     background-size: cover;
 }
 
+
+/*##################### blogpost detail ##########################*/
+
+.blogpost-image-detail {
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    margin-top: 4.5em;
+    padding-bottom: 4.5em;
+    text-align: center;
+    border-bottom: #dedede 1px solid;
+}
+
+.blogpost-image-detail img {
+    height: 100%;
+    width: auto;
+}
+
+.blogpost-content {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 15em;
+}
+
+.blogpost-content h3, h2 {
+    padding-top: 1em;
+}
+
+.blogpost-content h2 {
+    padding-bottom: 1em;
+}
+
+.blogpost-content p {
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+.blogpost-content-image-landscape {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4em;
+    text-align: center;
+}
+.blogpost-content-image-landscape img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+.blogpost-content-image-portrait {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 4em;
+  text-align: center;
+}
+.blogpost-content-image-portrait img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
 
 /*##################### MEDIA QUERY ##########################*/
 
